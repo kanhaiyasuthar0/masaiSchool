@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgba(53,152,219,255);
+}
+#btn{
+    background: rgba(193,57,43,255);
+    /* background-color: blue; */
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+

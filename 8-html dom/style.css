@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+.main {
+  background: white;
+  width: 50%;
+  margin: 50px auto;
+}
+.main .box1,
+.box2 {
+  /* justify-content: center; */
+  /* margin: auto; */
+  margin-top: 25px;
+  margin-left: 218px;
+  display: inline-block;
+  text-align: center;
+}
+.box1 button {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  /* width: 50px; */
+  width: fit-content;
+  font-size: larger;
+  min-width: 50px;
+  /* text-align: center; */
+  justify-content: center;
+  padding-left: 10px;
+  background: red;
+  border-radius: 5px;
+  /* margin-left: auto; */
+}
+.box2 button {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  overflow: visible;
+  /* width: 50px; */
+  width: fit-content;
+  min-width: 50px;
+  /* justify-content: center; */
+  justify-content: space-around;
+  font-size: larger;
+  background-color: green;
+  /* text-overflow: inherit; */
+}
+#input {
+  display: block;
+  border: 1px solid red;
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: larger;
+  color: blue;;
+}
+.min, .max{
+  /* width:max-content; */
+  /* border: 1px solid blue; */
+}
+.numbers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  width: 500px;
+  border: 1px solid black;
+  margin: auto;
+  grid-gap: 50px;
+  /* border: 1px solid blue; */
+  justify-content: center;
+}
+.num {
+  background-color: orange;
+}
+.btn1,
+.btn3,
+.btn7,
+.btn9 {
+  background-color: green;
+}
+.num {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  /* justify-content: middle; */
+  /* vertical-align: middle; */
+  /* text-align: ; */
+  /* margin: auto; */
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.btn0 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.enter {
+  text-align: center;
+  border: 1px solid blue;
+  margin: 10px 286px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background: #000;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.enter:hover {
+  background-color: blue;
+  color: #000;
+  font-size: larger;
+  border-radius: 20px;
+  height: 60px;
+  /* width: 250px; */
+}
+.num:hover {
+  background-color: blue;
+  color: aliceblue;
+  font-size: larger;
+}

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background: black;
+    font-family: sans-serif;
+}
+
+
+.main{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    /* height: 100vh; */
+    /* height: 80%; */
+    height: 781px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+}
+
+.section{
+    /* height: 35%; */
+    /* border: 1px solid blue; */
+    /* margin: 5px 0; */
+    padding-top: 1%;
+}
+.section h1{
+    font-size: 100%;
+    color:grey;
+}
+.main .section h1:first-child{
+    text-align: center;
+}
+.foods{
+    /* width: 80%; */
+    text-align: center;
+    display: flex;
+    /* height: 50%; */
+    /* border: 1px solid blue; */
+    margin: auto;
+    justify-content: center;
+}
+.food{
+    width: 22%;
+    /* height: 10%; */
+    /* border: 1px solid green; */
+    margin: 5px;
+    
+}
+.food img:first-child{
+    width: 100%;
+
+   height: 75%;
+}
+.desc{
+    position: relative;
+    text-align: left;
+    width: 70%;
+
+}
+.food .desc img{
+    width: 50%;
+    position: absolute;
+    top:-10%;
+    right: -50%;
+}
+.desc h6{
+    color: grey;
+    /* font-style: bold; */
+    text-transform: uppercase;
+}

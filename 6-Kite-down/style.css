@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.main{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 50px;
+    height: 781px;
+}
+.box{
+    background-color: rgba(33,120,103,255);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    color: rgba(33,120,103,255);
+}
+
+.main .div{
+    display: flex;
+}
