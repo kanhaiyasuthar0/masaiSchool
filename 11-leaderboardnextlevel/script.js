@@ -66,7 +66,7 @@ enter.addEventListener("click", function () {
   if (input.textContent !== "") {
     var a = +input.textContent;
     inputValues.push(a);
-    // gamescore.innerHTML = "";
+    gamescore.innerHTML = "";
     display(inputValues);
     input.textContent = "";
   }
@@ -107,6 +107,7 @@ last.addEventListener("click", () => {
   let lastarr = [];
   inputValues.pop();
   lastarr = inputValues;
+  inputValues = lastarr;
   display(lastarr);
 });
 
