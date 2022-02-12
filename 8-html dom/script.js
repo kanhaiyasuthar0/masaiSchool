@@ -16,9 +16,9 @@ var num = document.querySelectorAll(".num");
 var min = document.querySelector(".min")
 var max = document.querySelector(".max")
 
-num.addEventListener("click", function(){
-    console.log(num);
-})
+// num.addEventListener("click", function(){
+//     console.log(num);
+// })
 
 btn1.addEventListener("click", function () {
   input.textContent += btn1.value;

@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: black; */
+  font-family: sans-serif;
+}
+#top{
+  display: flex;
+  
+  flex-direction: row;
+}
+.main {
+  background: white;
+  width: 46%;
+  margin: 50px auto;
+  border: 5px solid blue;
+  border-radius: 10px;
+}
+.main .box1,
+.box2 {
+  /* justify-content: center; */
+  /* margin: auto; */
+  margin-top: 25px;
+  margin-left: 197px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.tscore{
+  text-align: center;
+  /* margin-top: 15px; */
+}
+.score{
+/* align-items: center; */
+border-radius: 5px;
+border: 2px solid blue;
+text-align: center;
+width: 200px;
+height: 50px;
+margin: 10px auto;
+vertical-align: middle;
+}
+.box1 button {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  /* width: 50px; */
+  width: fit-content;
+  font-size: larger;
+  min-width: 50px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* padding-left: 10px; */
+  background: red;
+  /* border-radius: 5px; */
+  /* margin-left: auto; */
+}
+.box2 button {
+  /* border-radius: 5px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  /* overflow: visible; */
+  /* width: 50px; */
+  width: fit-content;
+  min-width: 50px;
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  font-size: larger;
+  background-color: green;
+  /* text-overflow: inherit; */
+}
+#input {
+  display: block;
+  border: 2px solid blue;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: larger;
+  color: blue;;
+}
+.min, .max{
+  /* width:max-content; */
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+.numbers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  width: 220px;
+  /* border: 1px solid black; */
+  margin: auto;
+  grid-gap: 20px;
+  /* border: 1px solid blue; */
+  justify-content: center;
+  
+}
+.num {
+  background-color: rgba(255,102,0,255);
+  font-weight: 900;
+}
+.btn1,
+.btn3,
+.btn7,
+.btn9 {
+  
+  background-color: rgba(102,129,0,255);
+}
+.num {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  /* justify-content: middle; */
+  /* vertical-align: middle; */
+  /* text-align: ; */
+  /* margin: auto; */
+  margin-top: 10px;
+  /* border-radius: 5px; */
+}
+.btn0 {
+  margin-bottom: 15px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: rgba(128,0,101,255);
+  color: white;
+}
+h4{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.enter {
+  text-align: center;
+  border: 1px solid blue;
+  margin-left: 246px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 200px;
+  background: #000;
+  color: white;
+  font-weight: 600;
+  /* border-radius: 10px; */
+}
+.game-score{
+  text-align: center;
+}
+#game-score{
+  margin: auto;
+  /* border: 1px solid grey; */
+  height: fit-content;
+  min-height: 400px;
+  max-height: 700px;
+  text-align: center;
+  width: 50%;
+  /* border-radius: 5; */
+}
+.all-btn{
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  margin:10px auto;
+}
+.all-btn button{
+  font-size: larger;
+  height: 30px;
+  margin: 10px 0;
+  background: #000;
+  color: white;
+}
+
+
+/* pseudo classes */
+
+
+.all-btn button:hover{
+  background-color: blue;
+  color: #000;
+  font-weight: bolder;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.enter:hover {
+  background-color: blue;
+  color: #000;
+  font-size: larger;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  /* height: 60px; */
+  /* width: 250px; */
+}
+.num:hover {
+  background-color: blue;
+  color: aliceblue;
+  font-size: larger;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
