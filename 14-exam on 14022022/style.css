@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+.header{
+    text-align: right;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid grey;
+    
+}
+
+#main{
+    text-align: center;
+    width: 50%;
+    margin:100px auto;
+    background-color: burlywood;
+    /* border-radius: 15px; */
+    border-right: solid red 25px;
+    border-left: solid red 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px;
+}
+.main h5{
+    font-size: larger
+}
+.main h6{
+    font-size: large;
+    color: blue;
+    text-align: right;
+
+}
+.himg{
+    border-top-right-radius: 12.5px;
+    border-bottom-left-radius: 12.5px;
+    border-top: solid red 25px;
+    border-bottom: solid red 25px;
+    height: 50%;
+    width: 50%;
+    /* text-align: center; */
+}
+.allnews{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    
+}
+.searched{
+    text-align: left;
+    
+}
+
+.allnews h5{
+    font-size: large;
+}
+.allnews h6{
+    font-size:small;
+    color: blue;
+    text-align: left;
+
+}
+.searched:hover{
+    background-color: grey;
+    border-top-right-radius: 6.25px;
+    border-bottom-left-radius: 6.25px;
+    border-top: solid red 12.5px;
+    border-bottom: solid red 12.5px;
+    color: white;
+   
+   
+}
+.himg:hover{
+    border-top-right-radius: 6.25px;
+    border-bottom-left-radius: 6.25px;
+    border-top: solid red 12.5px;
+    border-bottom: solid red 12.5px;
+    /* height: 75%; */
+    width: 95%;
+}
+
+
+
+
+.header a:hover{
+    color: blue;
+    text-decoration: underline;
+}

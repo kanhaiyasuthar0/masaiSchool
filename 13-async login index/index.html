@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/scr.css" />
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script> -->
+    <script
+      src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"
+      defer
+    ></script>
+    <script src="/scr.js" defer></script>
+    <title>Welcome to Homepage</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="/index.html">Home</a>
+      <a href="/login.html">Login</a>
+      <a href="/login.html">Signup</a>
+    </div>
+    <div class="main">
+      <div class="search">
+        <input type="text" id="search" placeholder="Enter movie name" />
+        <button id="btn">Search</button>
+      </div>
+      <div class="movies">
+        <h1 id="title"></h1>
+        <img
+          src="https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt=""
+          id="mainimage"
+        />
+        <h5 id="year"></h5>
+        <h5 id="imdbid"></h5>
+      </div>
+      <div class="moviesgrid"></div>
+    </div>
+  </body>
+</html>
