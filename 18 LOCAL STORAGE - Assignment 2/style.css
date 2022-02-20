@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    padding: 2rem 2rem;
+}
+h1 label{
+    height: 2rem;
+    border-radius: 5px;
+    width: 3rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+     font-weight: 700;
+   padding:0.5rem;
+   margin-bottom: 0.5rem;
+}
+label,button{
+    /* margin: 2rem auto; */
+    text-align: left;
+    margin: 0.5rem;
+}
+input,select{
+    margin:0.5rem
+}
+#title {
+height: 2rem;
+}
+textarea{
+    margin: 0.5rem;
+    min-height: 4rem;
+}
+#btn{
+    height: 2rem;
+    border-radius: 5px;
+    width: 3rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+     font-weight: 700;
+   
+}
+
+.right{
+    border: 1px solid red;
+    width: 70rem;
+    
+    
+}
+.right h1{
+    text-align: left;
+    /* margin-bottom: 1rem; */
+    margin:2rem auto;
+}
+table{
+    margin:2rem auto;
+    width: 80%;
+
+
+}
+
+ th,td{
+    
+    text-align: left;
+    
+}
+
+.row{
+    border: 1px solid #cecece;
+    
+}
+.row:hover{
+    color: blue;
+    /* border: blue; */
+    border: 1px solid blue;
+    font-size: large;
+}
+
+/* //hover effects */
+
+#btn:hover{
+    color: blue;
+    background-color: white;
+    /* width: 100%; */
+}
+/* 
+label:hover{
+    font-weight: 700;
+    color: blue;
+} */
+input:hover, select:hover{
+   border-bottom: 2px solid blue;
+}
+h1 label:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}

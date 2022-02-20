@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+}
+
+
+.item ,.quantity{
+    margin: 2rem;
+    min-width:350px;
+
+    border-bottom: 5px solid rgb(41, 41, 102);
+    outline: none;
+    height: 2rem;
+    border-radius: 5px;
+    
+}
+.itemlist{
+    list-style:none;
+    text-align: center;
+    font-size: larger;
+}
+.btn{
+    height: 2rem;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 5px solid rgb(41, 41, 102);
+    background-color: rgb(192, 18, 18);
+    color: white;
+    padding: 0.5rem;
+}
+.delete{
+    height: 20px;
+    margin: 0 2rem;
+    /* max-width:; */
+}
+
+.btn:hover{
+    color: white;
+    background-color: darkblue;
+    
+}
+.item:hover , .quantity:hover{
+    border: 1px solid grey;
+    border-bottom: 5px solid rgb(41, 41, 102);
+}
+

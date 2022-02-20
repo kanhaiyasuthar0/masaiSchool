@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <h1><label title="Enter the details and click add" for="category">Add Product</label></h1>
+        <!-- <hr> -->
+        <label for="category">Category</label>
+        <select name="category" id="category">
+          <option value="electronics">electronics</option>
+          <option value="furniture">furniture</option>
+          <option value="home appliance">home appliance</option>
+          <option value="books ">books</option>
+        </select>
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" />
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Write the description"> </textarea>
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price" />
+        <button title="Click here to add item in the list" id="btn">Add</button>
+      </div>
+      <div class="right">
+          <h1><label title="All the items at one place" for="product">Product Info</label> </h1>
+         <!-- <hr> -->
+        <table class="table">
+            <tr>
+              <th>#</th>
+              <th>Category</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+            
+          </table>
+      </div>
+    </div>
+  </body>
+</html>
